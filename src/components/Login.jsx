@@ -6,7 +6,7 @@ import {useDispatch} from "react-redux"
 import authService from "../appwrite/auth"
 import {useForm} from "react-hook-form"
 
-function Login() {
+function LoginC() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const {register, handleSubmit} = useForm()
@@ -80,4 +80,4 @@ function Login() {
   )
 }
 
-export default Login
+export default LoginC
